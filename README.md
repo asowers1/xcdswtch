@@ -34,3 +34,19 @@ Specify the Xcode tools path to switch to
 ```
 sudo zsh xcdswtch.sh -p /path/to/xcode.app
 ```
+
+Use and test
+
+```
+➜  xcdswtch git:(master) sudo zsh xcdswtch.sh 8       
+Switching to Xcode 8 command line tools
+➜  xcdswtch git:(master) xcodebuild -version   
+Xcode 8.0
+Build version 8S162m
+➜  xcdswtch git:(master) sudo zsh xcdswtch.sh 7
+Switching to Xcode 7 command line tools
+➜  xcdswtch git:(master) xcodebuild -version   
+Xcode 7.3.1
+Build version 7D1014
+➜  xcdswtch git:(master) 
+```
