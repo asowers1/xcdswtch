@@ -21,16 +21,16 @@ Change your Xcode command line tools version instantly (might require super user
 Switch to Xcode 8 command line tools
 
 ```
-./xcdswtch 8
+sudo zsh xcdswtch.sh 8
 ```
 Switch to Xcode 7 command line tools
 
 ```
-./xcdswtch 7
+sudo zsh xcdswtch.sh 7
 ```
 
 Specify the Xcode tools path to switch to
 
 ```
-./xcdswtch -p /path/to/xcode.app
+sudo zsh xcdswtch.sh -p /path/to/xcode.app
 ```
